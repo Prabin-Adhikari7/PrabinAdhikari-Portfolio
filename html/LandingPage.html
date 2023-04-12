@@ -165,19 +165,19 @@
 <section class="contact" id="contact">
     <div class="contact-box">
         <h2 class="heading">Contact <span>Me</span></h2>
-        <form action="#">
+        <form action="../php/connect.php" method="post">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Full Name" name="fullname">
+                <input type="email" placeholder="Email" name="email">
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Subject">
+                <input type="number" placeholder="Mobile Number" name="ph_no">
+                <input type="text" placeholder="Subject" name="subject">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="dwn-btn">
+            <textarea  cols="30" rows="10"  placeholder="Your message" name="message"></textarea>
+            <input type="submit" value="Send message" class="dwn-btn">
         </form>
-        <div class="social-media" style="">
+        <div class="social-media" >
             <h2 style="display:inline; color: whitesmoke;">Follow me at :</h2>
             <a id="final-one" href="https://github.com/Prabin-Adhikari7"><i class='bx bxl-github' ></i></a>
             <a id="final-one" href="https://www.facebook.com/prabinLN/">
